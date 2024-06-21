@@ -6,10 +6,11 @@
         text-align: center;
     }
     
-    body{
+    .login{
         background-color: rgb(15, 15, 15);
         display: flex;
         justify-content: center;
+        height: 800px;
        
     }
 
@@ -77,3 +78,112 @@
     }
 
     
+
+
+    /* Navbar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #557C55;
+    height: 77px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+nav > div > h1{
+    margin-top: 15px;
+    margin-left: 15px;
+    color: white;
+}
+
+    nav > div >ul{
+        display: flex;
+        gap: 20px;
+    } 
+
+    nav > div > ul > li{
+        margin-right: 20px;
+        list-style: none;
+
+    }
+
+
+    nav > div > ul > li:hover{
+      text-underline-offset: 7px;
+      text-decoration: underline;
+      color: white;
+      cursor: pointer;
+    }
+
+
+
+
+    nav > div > ul > li > a{
+        color: white;
+        text-decoration: none;
+        
+
+    }
+
+
+    /* Navbar end */
+
+
+
+    /* Main section-1 */
+    
+.section-1{
+    display: flex;
+     justify-content: space-evenly;
+    align-items: center; 
+    background-color: #FFC5C5;
+    height: 400px;
+}
+
+.section-1 > .img{
+    background-image: url("img1.png");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    /* box-shadow: 1px 1px 20px yellow; */
+    filter: drop-shadow(1px 1px 20px rgb(103, 197, 90));
+}
+
+.section-1 > div >p{
+    width: 270px;
+    color: rgb(80, 78, 77), 144);
+  
+}
+
+/* Main section-1 end */
+
+
+ /* Main section-2 */
+ 
+ .section-2{
+    background-color: #FA7070;
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .section-2 >.section-2-box1 > label{
+    color: white;
+ }
+
+ .section-2 >.section-2-box2 > label{
+    color: white;
+ }
+
+ .section-2 > div > .submit{
+    background-color: brown;
+    color: rgb(236, 232, 236); box-shadow: 0 0 10px 5px #BA55D3;
+ }
+
+
+ /*  Main section-2 end */
